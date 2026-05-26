@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pietro Santos | Analista de Dados & BI Jr</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+
+body{
+background:#09090b;
+color:#fafafa;
+overflow-x:hidden;
+}
+
+body::before{
+content:'';
+position:fixed;
+inset:0;
+background:
+radial-gradient(circle at top left,rgba(37,99,235,.18),transparent 35%),
+radial-gradient(circle at bottom right,rgba(124,58,237,.15),transparent 35%);
+z-index:-1;
+}
+
+.container{
+width:min(1180px,92%);
+margin:auto;
+}
+
+header{
+padding:26px 0;
+position:sticky;
+top:0;
+backdrop-filter:blur(16px);
+background:rgba(9,9,11,.65);
+border-bottom:1px solid rgba(255,255,255,.06);
+z-index:999;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-weight:800;
+font-size:1.15rem;
+}
+
+.logo span{
+color:#60a5fa;
+}
+
+nav ul{
+display:flex;
+gap:28px;
+list-style:none;
+}
+
+nav a{
+color:#d4d4d8;
+text-decoration:none;
+font-size:.95rem;
+}
+
+.hero{
+padding:90px 0 70px;
+display:grid;
+grid-template-columns:1.3fr .9fr;
+gap:40px;
+align-items:center;
+}
+
+.badge{
+display:inline-block;
+padding:10px 16px;
+border-radius:999px;
+background:rgba(96,165,250,.12);
+color:#93c5fd;
+margin-bottom:24px;
+font-size:.9rem;
+border:1px solid rgba(96,165,250,.25);
+}
+
+h1{
+font-size:4rem;
+line-height:1;
+margin-bottom:24px;
+}
+
+.gradient{
+background:linear-gradient(90deg,#60a5fa,#8b5cf6);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero p{
+font-size:1.05rem;
+line-height:1.9;
+color:#a1a1aa;
+}
+
+.buttons{
+display:flex;
+gap:16px;
+margin-top:35px;
+flex-wrap:wrap;
+}
+
+.btn{
+padding:15px 24px;
+border-radius:14px;
+text-decoration:none;
+font-weight:700;
+transition:.25s;
+}
+
+.primary{
+background:linear-gradient(135deg,#2563eb,#7c3aed);
+color:white;
+}
+
+.secondary{
+border:1px solid rgba(255,255,255,.1);
+color:#e5e7eb;
+}
+
+.btn:hover{
+transform:translateY(-4px);
+}
+
+.panel{
+background:rgba(255,255,255,.04);
+border:1px solid rgba(255,255,255,.08);
+border-radius:26px;
+padding:28px;
+}
+
+.hero-card h3{
+margin-bottom:18px;
+font-size:1.3rem;
+}
+
+.skill{
+margin-bottom:18px;
+}
+
+.skill span{
+display:block;
+margin-bottom:8px;
+color:#d4d4d8;
+}
+
+.bar{
+height:10px;
+background:#18181b;
+border-radius:999px;
+overflow:hidden;
+}
+
+.fill{
+height:100%;
+background:linear-gradient(90deg,#60a5fa,#7c3aed);
+}
+
+section{
+padding:45px 0;
+}
+
+h2{
+font-size:2rem;
+margin-bottom:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:24px;
+}
+
+.card{
+background:rgba(255,255,255,.04);
+padding:28px;
+border-radius:24px;
+border:1px solid rgba(255,255,255,.08);
+transition:.25s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+border-color:#60a5fa;
+}
+
+.card h3{
+margin-bottom:14px;
+}
+
+.card p{
+color:#a1a1aa;
+line-height:1.8;
+}
+
+.tags{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+}
+
+.tag{
+padding:10px 16px;
+border-radius:999px;
+background:#18181b;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.contact a{
+display:block;
+margin-top:18px;
+color:#60a5fa;
+text-decoration:none;
+}
+
+footer{
+padding:40px 0;
+text-align:center;
+color:#71717a;
+margin-top:30px;
+}
+
+@media(max-width:930px){
+
+.hero{
+grid-template-columns:1fr;
+}
+
+h1{
+font-size:2.7rem;
+}
+
+nav ul{
+display:none;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<div class="container">
+
+<nav>
+
+<div class="logo">
+Pietro<span>Santos</span>
+</div>
+
+<ul>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#experiencia">Experiência</a></li>
+<li><a href="#contato">Contato</a></li>
+</ul>
+
+</nav>
+
+</div>
+</header>
+
+<div class="container">
+
+<section class="hero">
+
+<div>
+
+<div class="badge">
+Analista de Dados & Business Intelligence Jr
+</div>
+
+<h1>
+Transformando
+<span class="gradient">
+dados em decisões.
+</span>
+</h1>
+
+<p>
+
+Profissional com experiência em <strong>Data Analytics, Business Intelligence, CRM e operações comerciais</strong>, atuando na análise estratégica de informações, dashboards, KPIs, automação de processos e suporte à tomada de decisão. Conhecimento em <strong>Power BI, Excel Avançado, Python, SQL e visualização de dados</strong>, combinando perfil analítico, adaptabilidade e foco em resultados.
+
+</p>
+
+<div class="buttons">
+
+<a class="btn primary" href="#contato">
+Entrar em contato
+</a>
+
+<a class="btn secondary" href="mailto:pietrocosta2803@gmail.com">
+Enviar e-mail
+</a>
+
+</div>
+
+</div>
+
+<div class="panel hero-card">
+
+<h3>Competências Principais</h3>
+
+<div class="skill">
+<span>Power BI & Dashboards</span>
+<div class="bar"><div class="fill" style="width:92%"></div></div>
+</div>
+
+<div class="skill">
+<span>Excel Avançado</span>
+<div class="bar"><div class="fill" style="width:95%"></div></div>
+</div>
+
+<div class="skill">
+<span>Python & Automação</span>
+<div class="bar"><div class="fill" style="width:82%"></div></div>
+</div>
+
+<div class="skill">
+<span>SQL & Dados</span>
+<div class="bar"><div class="fill" style="width:76%"></div></div>
+</div>
+
+<div class="skill">
+<span>Inglês Fluente</span>
+<div class="bar"><div class="fill" style="width:96%"></div></div>
+</div>
+
+</div>
+
+</section>
+
+<section id="sobre">
+
+<h2>Sobre Mim</h2>
+
+<div class="panel">
+
+<p style="line-height:2;color:#a1a1aa;">
+
+Sou um profissional orientado por dados com experiência prática em análise, Business Intelligence, CRM, automação e operações comerciais. Tenho atuação em construção de dashboards, organização estratégica de dados, acompanhamento de indicadores, análise operacional e geração de insights para melhoria de performance. Busco crescimento contínuo em Data, BI e Analytics, utilizando tecnologia para gerar eficiência e tomada de decisão inteligente.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills & Tecnologias</h2>
+
+<div class="tags">
+
+<div class="tag">Power BI</div>
+<div class="tag">Excel Avançado</div>
+<div class="tag">Python</div>
+<div class="tag">SQL</div>
+<div class="tag">Business Intelligence</div>
+<div class="tag">CRM</div>
+<div class="tag">KPIs</div>
+<div class="tag">Dashboards</div>
+<div class="tag">Automação</div>
+<div class="tag">Data Analytics</div>
+<div class="tag">Visualização de Dados</div>
+<div class="tag">Inglês Fluente</div>
+
+</div>
+
+</section>
+
+<section id="experiencia">
+
+<h2>Experiência Profissional</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Dani Pacheco Assessoria Imobiliária</h3>
+
+<p>
+
+<strong>Vendedor Comercial & Gestão de Dados</strong><br><br>
+
+Gestão de leads, relacionamento comercial, relatórios analíticos, organização de dados e implementação de soluções com BI, Excel e Python/Pandas.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Alea Vivo Eletrocomercial</h3>
+
+<p>
+
+<strong>Consultor de Negócios</strong><br><br>
+
+Atendimento, vendas, organização de sistemas internos, BI, Excel, gestão de indicadores, relacionamento e otimização operacional.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Freelance — Dados & Programação</h3>
+
+<p>
+
+Projetos independentes em Python, dashboards em BI, automação de processos, análise de dados, relatórios gerenciais e organização estratégica de informações.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Projetos</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Dashboards & BI</h3>
+<p>Construção de dashboards interativos para análise operacional, comercial e acompanhamento de performance.</p>
+</div>
+
+<div class="card">
+<h3>KPIs & Métricas</h3>
+<p>Criação de indicadores estratégicos, relatórios gerenciais e insights para apoio à tomada de decisão.</p>
+</div>
+
+<div class="card">
+<h3>Automação & Dados</h3>
+<p>Projetos com Python, automação de processos, tratamento de dados e otimização de fluxos.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contato">
+
+<h2>Contato</h2>
+
+<div class="panel contact">
+
+<a href="tel:+5551998474615">
+📱 WhatsApp / Celular → 51 99847-4615
+</a>
+
+<a href="mailto:pietrocosta2803@gmail.com">
+✉️ pietrocosta2803@gmail.com
+</a>
+
+<a href="https://github.com/pcskkjk" target="_blank">
+💻 GitHub → github.com/pcskkjk
+</a>
+
+<a href="https://instagram.com/santos.pietro_" target="_blank">
+📷 Instagram → @santos.pietro_
+</a>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Pietro Santos • Analista de Dados & BI Jr
+</footer>
+
+</div>
+
+</body>
+</html>
